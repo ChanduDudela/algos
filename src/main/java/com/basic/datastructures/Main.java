@@ -1,3 +1,5 @@
+package com.basic.datastructures;
+
 public class Main {
   public static void main(String[] args) {
     LinkedList l1 = new LinkedList(1);

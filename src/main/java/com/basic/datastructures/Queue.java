@@ -1,3 +1,5 @@
+package com.basic.datastructures;
+
 public class Queue {
 
   Node head;

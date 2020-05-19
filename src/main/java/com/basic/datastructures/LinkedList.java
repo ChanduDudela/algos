@@ -1,3 +1,5 @@
+package com.basic.datastructures;
+
 public class LinkedList {
     Node head;
 
@@ -43,7 +45,7 @@ public class LinkedList {
     @Override
     public String toString() {
         Node current = head;
-        String str = "LinkedList{ ";
+        String str = "com.basic.datastructures.LinkedList{ ";
 
         while (current != null) {
             str = str.concat(" " + current.data);

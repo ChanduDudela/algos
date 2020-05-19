@@ -1,3 +1,4 @@
+package com.basic.datastructures;
 
 class Node {
     int data;
