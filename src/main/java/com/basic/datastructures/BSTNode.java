@@ -72,4 +72,21 @@ public class BSTNode {
     }
     System.out.println(data);
   }
+
+  private boolean checkBST(BSTNode node, int min, int max) {
+    if (node == null) {
+      return true;
+    }
+    if (node.data < min || node.data > max) {
+      return false;
+    }
+    return checkBST(node.left, min, node.data - 1) && checkBST(node.right, node.data + 1, max);
+  }
+
+  /*
+   * Method to check if a tree is BST
+   **/
+  public boolean checkBST(BSTNode node) {
+    return checkBST(node, Integer.MIN_VALUE, Integer.MAX_VALUE);
+  }
 }
