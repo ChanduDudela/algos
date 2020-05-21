@@ -1,5 +1,8 @@
 package com.basic.datastructures;
 
+/**
+ * Stack implementation
+ */
 public class Stack {
   Node top;
 

@@ -1,5 +1,10 @@
 package com.basic.datastructures;
 
+/**
+ * For creating BST with insert, contains operations
+ * and print elements -
+ *    in order, pre order, post order
+ **/
 public class BSTNode {
   BSTNode left, right;
   int data;
@@ -83,7 +88,7 @@ public class BSTNode {
     return checkBST(node.left, min, node.data - 1) && checkBST(node.right, node.data + 1, max);
   }
 
-  /*
+  /**
    * Method to check if a tree is BST
    **/
   public boolean checkBST(BSTNode node) {

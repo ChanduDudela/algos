@@ -1,10 +1,13 @@
 package com.basic.datastructures;
 
-class Node {
+/**
+ * A node with data and pointer to it's next node
+ */
+public class Node {
     int data;
-    Node next;
+    public Node next;
 
-    Node(int data) {
+    public Node(int data) {
         this.data = data;
     }
 }

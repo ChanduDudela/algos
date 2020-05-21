@@ -1,5 +1,8 @@
 package com.basic.datastructures;
 
+/**
+ * LinkedList implementation to append, prepend, delete a value from it
+ */
 public class LinkedList {
     Node head;
 
